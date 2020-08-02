@@ -1,0 +1,15 @@
+{
+    "name": "proweb21/patterns",
+    "description": "Contracts for software patterns as interfaces and abstract classes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xavi Subirà",
+            "email": "xavi@proweb21.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "version": "1.0.0"
+}
