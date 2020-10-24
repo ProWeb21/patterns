@@ -1,6 +1,6 @@
 {
     "name": "proweb21/patterns",
-    "description": "Contracts for software patterns as interfaces and abstract classes",
+    "description": "Contracts for software patterns as interfaces and abstract classes & some DDD types",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,5 +11,10 @@
     ],
     "minimum-stability": "stable",
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "Proweb21\\": "src/"
+        }
+    },
     "version": "1.0.0"
 }
