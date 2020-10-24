@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "ramsey/uuid": "4.1.1"
+    },
     "autoload": {
         "psr-4": {
             "Proweb21\\": "src/"
