@@ -11,6 +11,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
+        "ext-uuid": "1.1.0",
         "ramsey/uuid": "4.1.1"
     },
     "autoload": {
