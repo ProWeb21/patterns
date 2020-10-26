@@ -21,7 +21,7 @@ abstract class Int64ValueObject implements ValueObject
         return $this->value;
     }
 
-    public function equals($object): bool
+    public function isTheSameAs($object): bool
     {
         return ($object instanceof Int64ValueObject) &&
                ($object->getValue() === $this->value);

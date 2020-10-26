@@ -23,7 +23,7 @@ abstract class DateTimeValueObject implements ValueObject
         return $this->value;
     }
 
-    public function equals($object): bool
+    public function isTheSameAs($object): bool
     {
         return ($object instanceof DateTimeValueObject) &&
                 $object->getValue()->getTimestamp() === $this->value->getTimestamp();

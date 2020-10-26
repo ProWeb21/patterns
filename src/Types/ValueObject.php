@@ -11,7 +11,7 @@ interface ValueObject
     /**
      * Compares two value objects
      * @param ValueObject $object
-     * @return bool
+     * @return bool True if both are the same
      */
-    public function equals($object): bool;
+    public function isTheSameAs($object): bool;
 }

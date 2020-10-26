@@ -35,7 +35,7 @@ final class UuidValueObject implements ValueObject
         }
     }
 
-    public function equals($object): bool
+    public function isTheSameAs($object): bool
     {
         return ($object instanceof UuidValueObject) &&
                ($object->getValue() === $this->value);

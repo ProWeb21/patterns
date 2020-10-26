@@ -21,7 +21,7 @@ abstract class StringValueObject implements ValueObject
         return $this->value;
     }
 
-    public function equals($object): bool
+    public function isTheSameAs($object): bool
     {
         return ($object instanceof StringValueObject) &&
                 0 === strcmp($object->getValue(), $this->value);
