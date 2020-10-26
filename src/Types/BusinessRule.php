@@ -10,9 +10,9 @@ interface BusinessRule
 
     /**
      * @param mixed $object
-     * @param null|mixed $context
+     * @param null|Context $context
      * @return void
      * @throws \DomainException
      */
-    public function apply($object, $context = null);
+    public function apply($object, Context $context = null);
 }
